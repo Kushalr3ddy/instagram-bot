@@ -15,7 +15,7 @@ password="your_password_here"
 
 def login():
     browser.get(url)
-    
+    sleep(3)
     print("logging in...")
     browser.find_element_by_xpath("//*[@id=\"id_username\"]").click()
     browser.find_element_by_xpath("//*[@id=\"id_username\"]").send_keys(username)
@@ -66,7 +66,7 @@ def comment():
                     
 
 
-    #shid way of handling exception
+    #shid way of handling exceptiony
     except Exception as e:
         print(e)
         pass
