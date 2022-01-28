@@ -15,7 +15,7 @@ password="your_password_here"
 
 def login():
     browser.get(url)
-    browser.implicitly_wait(3)
+    
     print("logging in...")
     browser.find_element_by_xpath("//*[@id=\"id_username\"]").click()
     browser.find_element_by_xpath("//*[@id=\"id_username\"]").send_keys(username)
@@ -30,7 +30,6 @@ def login():
     print("stored session cookies")
     
 
-    browser.implicitly_wait(5)
     sleep(5)
     browser.find_element_by_xpath("/html/body/div[5]/div/div/div/di/html/body/div[5]/div/div/div/div[3]/button[2]v[3]/button[2]").click()
 
@@ -42,7 +41,7 @@ def comment():
         print("loading cookies")
         browser.add_cookie(cookie)
     browser.get(tag_url)
-    browser.implicitly_wait(5)
+   
     sleep(5)
     try:
         browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[2]").click()
@@ -67,7 +66,7 @@ def comment():
                     
 
 
-    
+    #shid way of handling exception
     except Exception as e:
         print(e)
         pass
