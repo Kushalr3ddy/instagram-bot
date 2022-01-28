@@ -10,8 +10,8 @@ browser = webdriver.Firefox()
 
 
 limit=10
-username ="baals_to_life"
-password="notnoice"
+username ="your_username_here"
+password="your_password_here"
 
 def login():
     browser.get(url)
