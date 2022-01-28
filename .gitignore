@@ -1,0 +1,6 @@
+*.exe 
+*.pkl 
+inspect.txt 
+*.log 
+main.py 
+test.py 
