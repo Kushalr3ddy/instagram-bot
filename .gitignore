@@ -4,3 +4,5 @@ inspect.txt
 *.log 
 main.py 
 test.py 
+__pycache__
+copy.json

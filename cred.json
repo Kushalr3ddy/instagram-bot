@@ -1,0 +1,7 @@
+{
+    "username":"yer insta username here",
+    "password":"yer insta password here",
+    "email":"yer mail from which you will be sending bot status from",
+    "email_pass":"password of yer email",
+    "recv_addr":"address to which you want to send the bot status to"
+}

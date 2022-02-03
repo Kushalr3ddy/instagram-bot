@@ -2,6 +2,7 @@ from selenium import webdriver
 from time import sleep
 import pickle
 import os
+import json
 limit=10
 tag="meme"
 url="https://www.instagram.com/accounts/login/?force_classic_login"
